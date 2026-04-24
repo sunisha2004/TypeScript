@@ -1,4 +1,5 @@
 import Container from "./Component/Container"
+import Fetch from "./Component/Fetch"
 import Greet from "./Component/Greet"
 import Heading from "./Component/Heading"
 import Oscar from "./Component/Oscar"
@@ -42,6 +43,7 @@ function App() {
       <Heading>Oscar holder</Heading>
     </Oscar>
     <Container styles={{border:'1px solid red',padding:'5px'}}></Container>
+    <Fetch/>
      
     </>
   )
